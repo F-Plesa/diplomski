@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nextcloud
-        image: nextcloud:16-apache #Added default image
+        image: nextcloud:18-apache #Added default image
         volumeMounts:
         - name: server-storage
           mountPath: /var/www/html

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mariadb
-        image: mariadb:10.3
+        image: mariadb
         env:
         - name: MYSQL_DATABASE
           value: mariadb_nextcloud
