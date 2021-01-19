@@ -3,6 +3,9 @@ kind: Ingress
 metadata:
   name: cluster-ingress
   namespace: nextcloud
+  annotations:
+    # use the shared ingress-nginx
+    kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
   - host: files.mysite.test
