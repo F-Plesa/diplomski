@@ -9,6 +9,6 @@ spec:
     - ReadWriteMany 
   persistentVolumeReclaimPolicy: Retain 
   nfs: 
-    path: /opt/nfs 
+    path: /var/nfsshare
     server: storage
     readOnly: false
