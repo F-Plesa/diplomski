@@ -6,7 +6,7 @@ metadata:
     app: nextcloud
 spec:
   accessModes:
-  - ReadWriteOnce
+  - ReadWriteMany
   resources:
     requests:
-      storage: 512Mi
+      storage: 5Gi
